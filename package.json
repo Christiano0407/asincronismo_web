@@ -4,7 +4,8 @@
   "description": "Course with Platzi of javascript and API application.",
   "main": "src/js/index.js",
   "scripts": {
-    "callback": "node src/js/index.js"
+    "callback": "node src/js/index.js",
+    "callback:challenge": "node src/callback/challengeOne.js"
   },
   "repository": {
     "type": "git",
