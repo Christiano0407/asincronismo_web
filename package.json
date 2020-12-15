@@ -1,0 +1,22 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "Course with Platzi of javascript and API application.",
+  "main": "src/js/index.js",
+  "scripts": {
+    "callback": "node src/js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christiano0407/asincronismo_web.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Chris04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Christiano0407/asincronismo_web/issues"
+  },
+  "homepage": "https://github.com/Christiano0407/asincronismo_web#readme"
+}
