@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Christiano0407/asincronismo_web/issues"
   },
-  "homepage": "https://github.com/Christiano0407/asincronismo_web#readme"
+  "homepage": "https://github.com/Christiano0407/asincronismo_web#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
