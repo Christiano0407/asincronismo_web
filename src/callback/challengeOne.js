@@ -5,7 +5,7 @@
 //abrir la url, obtener la petición(.open)
 // readyState === 4 (valor para decir que ha sido completado) / status 200 (salió bien-web).
 //Petición por medio de XML, para Callback.
-
+//AJAX
 let XMLHttpRequest = require(`xmlhttprequest`).XMLHttpRequest;
 
 let API = `https://rickandmortyapi.com/api/character/`;
