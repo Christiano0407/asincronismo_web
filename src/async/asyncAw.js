@@ -14,3 +14,24 @@ const doAwait = async () => {
 console.log(`BEFORE`);
 doAwait();
 console.log(`AFTER`);
+
+//TWO:
+const doOne = () => {
+    return new Promise((resolve, reject) => {
+        if(true){
+         setTimeout(() => {
+         resolve(`Async is true!!`)
+         },3000)
+        }else {
+        const error = new Error(`Problems!`);
+         reject(error);
+        }
+    });
+}
+
+const doTwo = async () => {
+    const doThree = await doOne()
+    console.log(doThree);
+}
+
+doTwo();
