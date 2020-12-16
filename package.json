@@ -8,7 +8,8 @@
     "callback:challenge": "node src/callback/challengeOne.js",
     "promesa": "node src/promise/promesa.js",
     "promesa:challenge": "node src/promise/challengePro.js",
-    "async": "node src/async/asyncAW.js"
+    "async": "node src/async/asyncAW.js",
+    "async:challenge": "node src/async/challengeAsync.js"
   },
   "repository": {
     "type": "git",

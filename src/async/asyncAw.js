@@ -34,4 +34,14 @@ const doTwo = async () => {
     console.log(doThree);
 }
 
+//reconocer los errores:
+/* const doTwo = async () => {
+    try{
+    const doThree = await doOne()
+    console.log(doThree);
+    }catch(error){
+    console.error(error);
+    }
+} */
+
 doTwo();
